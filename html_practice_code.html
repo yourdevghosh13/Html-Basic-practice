@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html_practice_code</title>
+   <link rel="icon" href="/Favicon.png" type="image/png">
+    <style>
+        table {
+            border-collapse: collapse;
+
+        }
+
+        th,
+        td {
+            width: 400px;
+            text-align: center;
+        }
+    </style>
+   
+</head>
+
+<body>
+    <header>
+        <!-- to upload an image  -->
+        <img src="/unnamed.png" alt="logo" width="120px">
+        <!-- hr reffers to horizotal line -->
+        <hr>
+    </header>
+    <main>
+        <!-- now we will create a form  -->
+        <h1>survey form</h1>
+        <span><u>fill up this form properly</u></span><br><br>
+        <form action="#">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname"><br><br>
+            <label for="email">Email</label>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="email" id="email" placeholder="123@yahoo.com">
+            &nbsp&nbsp<label for="phone">phone</label>
+            &nbsp&nbsp&nbsp&nbsp &nbsp<input type="tel" name="" id="phone"><br><br>
+            <!-- Radio buttons -->
+            <span>Select your gender</span><br>
+            <input type="radio" id="Male" name="gender" value="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" id="FeMale" name="gender" value="FeMale">
+            <label for="FeMale">FeMale</label><br>
+            <input type="radio" id="Transgender" name="gender" value="Transgender">
+            <label for="Transgender">Transgender</label><br><br>
+            <!-- radio button end  -->
+
+            <!-- dropdown list  -->
+            <span> Favourite Mobile Brand</span><br>
+            <select name="MobileS" id="Mobile">
+                <option value="select">Select </option>
+                <option value="Samsung">Samsung</option>
+                <option value="iphone">iphone</option>
+            </select><br><br>
+            <!-- dropdown list end  -->
+<!-- creating a checkbox  -->
+<textarea name="description" id="description" cols="30" rows="3"></textarea><br>
+<label for="description">Any Sugessition for develop our form </label><br><br>
+<input type="checkbox" id="checkbox">
+<label for="checkbox">End User License Agreement. In connection with Distributor's distribution of the Products under this Agreement, and before any such Product can be installed by an End User, Distributor shall provide each End User with (i) a clear statement inviting the End User to agree to the terms of the applicable XXXX, (ii) the opportunity for each End User to review such XXXX via a hyperlink to such XXXX, and (iii) a button on which each End User may click indicating agreement to the terms of such XXXX. In the event that an End User does not affirmatively agree to install a particular Product by clicking on the button to agree to the terms of the applicable XXXX, then such Product shall not be installed on such End User's computer."</label><br><br>
+<button type="submit">Submit</button>
+<button type="reset">reset</button>
+            <hr>
+            <!-- Creating a table  -->
+            <h1>Table</h1>
+            <table border="1px solid black">
+                <tr>
+                    <th>Iphone</th>
+                    <th>Samsung</th>
+                    <th>pixel</th>
+                </tr>
+                <tr>
+                    <td> 40%</td>
+                    <td>30%</td>
+                    <td>20%</td>
+                </tr>
+            </table>
+            <!-- table end  -->
+            <br><br>
+            <hr>
+            <!-- creating a redirect link  -->
+            <a href="https://www.google.com/">Google</a><br>
+            <!-- if want to page open in new tab  -->
+            <h1><a href="https://www.google.com/" target="_blank">Google</a></h1>
+<!-- click google image to redirect search bar  -->
+<p>click google image to redirect search bar </p>
+<a href="https://www.google.com/" target="_blank"><img src="/unnamed.png" alt="Google logo" width="120px"></a>
+        </form>
+        <!-- end  -->
+        <hr><br>
+        <!-- creating a iframe window  -->
+        <p>creating a iframe window</p>
+        <table border="5px solid black">
+            <tr>
+                <th>Google</th>
+                <td><iframe width="560" height="315" src="https://www.youtube.com/embed/4WXs3sKu41I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+            </tr>
+            <tr>
+                <th>Microsoft</th>
+                <td><iframe width="560" height="315" src="https://www.youtube.com/embed/Uh9643c2P6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+            </tr>
+        </table>
+        <hr>
+    </main>
+    <footer>
+        <!-- order and unorder list  -->
+        <ul >
+            <li>about</li>
+            <ul>
+                <ol type="I">
+                <li>search</li>
+                <li>eng</li>
+                <li>spotify</li>
+                <li>lightroom</li>
+                
+                </ol>
+            </ul>
+            <li>contact me</li>
+            <li>gallery</li>
+            <li>our staff</li>
+        </ul>
+    </footer>
+</body>
+</html>
